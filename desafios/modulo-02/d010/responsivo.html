@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+
+        body{
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;/*o site fica numa caixa branca */
+            border-radius: 10px;/*o site fica redondo nos vertices */
+           
+            /*width: 800px;*//*em vez desta instrução devemos colocar */
+            min-width: 320px;/*telemóvel display pequeno*/
+            max-width: 800px;
+            margin: auto; /*o site já fica centralizado */
+        }
+        img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, velit nam alias labore quaerat, autem officia ducimus veniam, nemo laudantium hic. Similique alias quae, fugiat ullam non porro voluptatibus inventore.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius officia repellendus voluptatem corporis voluptates nostrum illum, et porro mollitia facilis fuga laudantium? Et voluptates nostrum, in numquam unde fugit?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint veniam illo hic accusamus molestiae ut voluptatem molestias, perferendis ab, rerum labore dolor cupiditate, ratione officia voluptate nam! Vitae, aspernatur aliquid?</p>
+        <picture>
+            <source media="(max-width:600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, velit nam alias labore quaerat, autem officia ducimus veniam, nemo laudantium hic. Similique alias quae, fugiat ullam non porro voluptatibus inventore.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius officia repellendus voluptatem corporis voluptates nostrum illum, et porro mollitia facilis fuga laudantium? Et voluptates nostrum, in numquam unde fugit?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint veniam illo hic accusamus molestiae ut voluptatem molestias, perferendis ab, rerum labore dolor cupiditate, ratione officia voluptate nam! Vitae, aspernatur aliquid?</p>
+    </main>
+    
+</body>
+</html>
